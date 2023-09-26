@@ -1,0 +1,1 @@
+CREATE TABLE animals(id SMALLINT GENERATED ALWAYS AS IDENTITY, name VARCHAR(100), date_of_birth DATE, escape_attempts SMALLINT, neutered BOOLEAN, weight_kg DECIMAL(4,2), PRIMARY KEY(id));
