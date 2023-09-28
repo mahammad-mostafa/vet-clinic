@@ -42,6 +42,12 @@ This file might include queries that make changes in the database (e.g., remove 
 
 📌 **Key Features:**
 - Table for animals information
+- Animals information includes (name / birth date / escape attempts / weight / neutering)
+- Each animal is linked with the owners & species tables through foreign keys (owner_id / species_id)
+- Table for animal owners information
+- Owners information includes (name / age)
+- Table for animal species information
+- Species information includes (name)
 
 <p align="right"><a href="#title">back to top</a></p>
 
