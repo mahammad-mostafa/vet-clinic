@@ -41,13 +41,14 @@ This file might include queries that make changes in the database (e.g., remove 
 - Queries uses `SQL`
 
 📌 **Key Features:**
-- Table for animals information
-- Animals information includes (name / birth date / escape attempts / weight / neutering)
+- Table for animals information which include (name / birth date / escape attempts / weight / neutering)
 - Each animal is linked with the owners & species tables through foreign keys (owner_id / species_id)
-- Table for animal owners information
-- Owners information includes (name / age)
-- Table for animal species information
-- Species information includes (name)
+- Table for animal owners information which include (name / age)
+- Table for animal species information which include (name)
+- Table for vets information which include (name / age / graduation)
+- Table for specializations information which is linked with the vets & species tables through foreign keys (vet_id / species_id)
+- Table for visits information which include (date)
+- Each visit is linked with the vets & species tables through foreign keys (animal_id / vet_id)
 
 <p align="right"><a href="#title">back to top</a></p>
 
