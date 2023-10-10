@@ -14,3 +14,7 @@ ALTER TABLE specializations ADD CONSTRAINT vets FOREIGN KEY(vet_id) REFERENCES v
 CREATE TABLE visits(animal_id SMALLINT, vet_id SMALLINT, date_of_visit DATE, PRIMARY KEY(animal_id, vet_id, date_of_visit));
 ALTER TABLE visits ADD CONSTRAINT animals FOREIGN KEY(animal_id) REFERENCES animals(id);
 ALTER TABLE visits ADD CONSTRAINT vets FOREIGN KEY(vet_id) REFERENCES vets(id);
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+CREATE INDEX animal ON visits(animal_id);
+CREATE INDEX vet ON visits(vet_id);
+CREATE INDEX email ON owners(email);

@@ -84,6 +84,12 @@ You can easily download or fork this repository and work on it immadiately!
 - [Twitter](https://twitter.com/mahammad_mostfa)
 - [LinkedIn](https://linkedin.com/in/mahammad-mostafa)
 
+📌 **Carlos:**
+- [GitHub](https://github.com/CarlosZ96)
+
+📌 **Austin:**
+- [GitHub](https://github.com/stino-x)
+
 <p align="right"><a href="#title">back to top</a></p>
 
 <!-- FUTURE -->
